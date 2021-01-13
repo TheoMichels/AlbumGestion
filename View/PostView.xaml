@@ -7,17 +7,17 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel Margin="8">
-        <StackPanel  Orientation="Horizontal">
-            <TextBlock Name="Album" Width="100">Album :</TextBlock>
-            <TextBox Name="txtAlbum" Margin="4" Padding="4" Width="300" Text="{Binding NomAlbum, UpdateSourceTrigger=PropertyChanged}"/>
-        </StackPanel>
+        <DockPanel Margin="4">
+            <TextBlock VerticalAlignment="Center" Width="100">Album :</TextBlock>
+            <TextBox  Margin="4" Padding="4" Width="300" Text="{Binding NomAlbum, UpdateSourceTrigger=PropertyChanged}"/>
+        </DockPanel>
 
-        <StackPanel  Orientation="Horizontal">
-            <TextBlock Name="Compositeur" DockPanel.Dock="Left" Width="100">Compositeur :</TextBlock>
-            <TextBox Name="txtCompositeur" Margin="4" Padding="4" DockPanel.Dock="Right" Width="300" Text="{Binding NomArtiste, UpdateSourceTrigger=PropertyChanged}"/>
-        </StackPanel>
+        <DockPanel Margin="4">
+            <TextBlock  VerticalAlignment="Center" DockPanel.Dock="Left" Width="100">Compositeur :</TextBlock>
+            <TextBox Margin="4" Padding="4" DockPanel.Dock="Right" Width="300" Text="{Binding NomArtiste, UpdateSourceTrigger=PropertyChanged}"/>
+        </DockPanel>
 
-        <ListBox ItemsSource="{Binding ListPiste}" SelectedItem="{Binding SelectedPiste}">
+        <ListBox ItemsSource="{Binding ListPiste}" SelectedItem="{Binding SelectedPiste}" Margin="4">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">

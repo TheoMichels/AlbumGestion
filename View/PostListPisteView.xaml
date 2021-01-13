@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:AlbumGestion"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    
-        <TextBox Text="{Binding NomPiste,UpdateSourceTrigger=PropertyChanged}" Margin="4" Padding="4" Width="100"/>
+
+    <TextBox Text="{Binding NomPiste,UpdateSourceTrigger=PropertyChanged}" Width="260" Height="25px" Margin="4"/>
     
 </UserControl>
