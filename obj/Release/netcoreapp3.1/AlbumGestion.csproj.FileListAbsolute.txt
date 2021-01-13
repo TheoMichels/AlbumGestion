@@ -1,0 +1,8 @@
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\AlbumGestion.csprojAssemblyReference.cache
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\MainWindow.g.cs
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\View\PostListAlbumView.g.cs
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\View\PostView.g.cs
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\App.g.cs
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\AlbumGestion_MarkupCompile.cache
+C:\Users\theom\source\repos\AlbumGestion\obj\Release\netcoreapp3.1\AlbumGestion_MarkupCompile.lref
