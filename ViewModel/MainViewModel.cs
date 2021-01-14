@@ -12,7 +12,6 @@ namespace AlbumGestion
             _listAlbum = new ObservableCollection<PostViewModel>
                 {
                 new PostViewModel() { NomAlbum="QALF", NomArtiste="Damso"},
-                new PostViewModel() { NomAlbum="Kalash", NomArtiste="Booba"},
                 new PostViewModel() { NomAlbum="Or noir", NomArtiste="Kaaris"},
                 new PostViewModel() { NomAlbum="Trône", NomArtiste="Booba"},
                 };

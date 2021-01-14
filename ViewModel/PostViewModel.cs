@@ -63,7 +63,6 @@ namespace AlbumGestion
             }
         }
 
-        //pour l'affichage des éléments de la liste
         public string TitreListe
         {
             get { return $"Album : {NomAlbum} \nArtiste : {NomArtiste}"; }
@@ -78,6 +77,7 @@ namespace AlbumGestion
         public void ajouterPiste()
         {
             Piste p = new Piste();
+            // donne à la piste le numéro de piste suivant automatiquement
             p.NumPiste = _listPiste.Count + 1;
             _listPiste.Add(p);
             SelectedPiste = p;
@@ -89,6 +89,7 @@ namespace AlbumGestion
                 _listPiste.Remove(_selectedPiste);
                 SelectedPiste = null;
             }
+            // met à jour le numéro des pistes, vu qu'un élément est supprimé les numéro peuvent ne plus être bon
             for(int i=0; i<_listPiste.Count; i++)
             {
                 _listPiste[i].NumPiste = i +1;
